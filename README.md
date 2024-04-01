@@ -54,8 +54,8 @@ Proyek Data Science ini menggunakan [Dataset Predict Students' Dropout and Acade
 	`pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy psycopg2-binary scikit-learn==1.2.2 joblib==1.3.1`
     
     **Metabase** <br>
-    username :  
-    password : 
+    username : syarifulm007@gmail.com<br> 
+    password : passwordMETABASE#16<br>
 
 ## 📚 Data Understanding 
 Dataset yang digunakan pada proyek data science ini adalah [Dataset Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success). Dataset tersebut terdiri dari 4424 records data dan 37 features.
