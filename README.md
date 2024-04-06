@@ -19,19 +19,19 @@ CRISP-DM terdiri dari 6 fase dan disusun sebagai sebuah siklus, yang bertujuan u
 Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik. Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias  _dropout_. Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. 
 
 ### Business Problems
-Untuk mencegah permasalahan Jaya Jaya Institute menjadi lebih parah. Maka perlu diidentifikasi faktor apa saja yang berpengaruh terhadap tingkat dropout yang tinggi dan mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout, sehingga dapat diberi bimbingan khusus. 
+Untuk mencegah permasalahan Jaya Jaya Institut menjadi lebih parah. Maka perlu diidentifikasi faktor apa saja yang berpengaruh terhadap tingkat dropout yang tinggi dan mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout, sehingga dapat diberi bimbingan khusus. 
 
 ### Project Scope
-Berdasarkan permasalahan yang telah diuraikan, maka untuk menjawab permasalahan bisnis tersebut akan dibuat sistem machine learning dengan menggunakan algoritma *Random Forest Classification*. Sehingga dapat diidentifikasi faktor-faktor yang berkontribusi terhadap tingginya tingkat *dropout* pada Jaya Jaya Jaya Institute.
+Berdasarkan permasalahan yang telah diuraikan, maka untuk menjawab permasalahan bisnis tersebut akan dibuat sistem machine learning dengan menggunakan algoritma *Random Forest Classification*. Sehingga dapat diidentifikasi faktor-faktor yang berkontribusi terhadap tingginya tingkat *dropout* pada Jaya Jaya Institut.
 
-Selain itu juga akan dibuat *business dashboard* yang dapat digunakan oleh Jaya Jaya Institute untuk membantu memantau data dan memonitor performa siswa.
+Selain itu juga akan dibuat *business dashboard* yang dapat digunakan oleh Jaya Jaya Institut untuk membantu memantau data dan memonitor performa siswa.
 
 Berikut beberapa pertanyaan yang akan dijawab dalam proyek ini dengan mengikuti konsep **SMART-Question**:
 
 ### SMART Question (Specific - Measurable - Action oriented - relevant - Time bond) :
-- **Specific :** Faktor-faktor apa saja yang berkontribusi terhadap *students dropout rate*  Jaya Jaya Jaya Institute?
-- **Measurable :** Berapa jumlah atau persentase faktor yang mempengaruhi *students dropout rate* Jaya Jaya Jaya Institute?
-- **Action oriented:** Tindakan apa yang dapat dilakukan Jaya Jaya Jaya Institute untuk menangani faktor penyebab tingginya *students dropout rate* dan menguranginya?
+- **Specific :** Faktor-faktor apa saja yang berkontribusi terhadap *students dropout rate*  Jaya Jaya Institut?
+- **Measurable :** Berapa jumlah atau persentase faktor yang mempengaruhi *students dropout rate* Jaya Jaya Institut?
+- **Action oriented:** Tindakan apa yang dapat dilakukan Jaya Jaya Institut untuk menangani faktor penyebab tingginya *students dropout rate* dan menguranginya?
 - **Relevant :** Apakah tindakan yang akan dilakukan tersebut dapat mengurangi *students dropout rate*?
 - **Time bond :** Berapa lama implementasi dari rencana untuk mengurangi *students dropout rate* tersebut? 
 
@@ -199,7 +199,7 @@ Business dashboard pada proyek ini dapat diakses melalui pranala (*link*) **Tabl
 ## 🎯 Conclusion & Recommendation Actions
 **SMART (Specific - Measurable - Action oriented - Relevant - Time bond)**
 
-Berdasarkan *insights* yang diperoleh dari hasil analisis, dapat disimpulkan bahwa terdapat beberapa faktor yang berpengaruh kuat terhadap *students dropout rate* di Jaya Jaya Jaya Institute. Beberapa faktor tersebut meliputi *scholarship holder*, *age at enrollment*, *daytime / evening attendance*, *tuition fees up to date*, *academic semester 1 and semester 2*. (**Specific**).
+Berdasarkan *insights* yang diperoleh dari hasil analisis, dapat disimpulkan bahwa terdapat beberapa faktor yang berpengaruh kuat terhadap *students dropout rate* di Jaya Jaya Institute. Beberapa faktor tersebut meliputi *scholarship holder*, *age at enrollment*, *daytime / evening attendance*, *tuition fees up to date*, *academic semester 1 and semester 2*. (**Specific**).
 
 Dari *business dashboard* yang telah dibuat sebelumnya dapat diperoleh beberapa *insights* di antaranya yaitu : 
 
@@ -211,22 +211,9 @@ Dari *business dashboard* yang telah dibuat sebelumnya dapat diperoleh beberapa 
 
 - Jumlah mahasiswa kelas *evening* yang berstatus *dropout* sebesar 42% (207 mahasiswa) dari keseluruhan mahasiswa yang mengambil kelas *Evening*. Jumlah tersebut berarti hampir setengah dari kelas malam (*evening*) berstatus *dropout*, dan jumlah tersebut sangat banyak. (**Measurable**) Beberapa tindakan yang dapat diambil untuk mengatasi hal ini adalah menyelenggarakan program bimbingan khusus bagi mahasiswa yang mengikuti kelas malam untuk membantu mereka mengelola waktu dan tugas kuliah dengan lebih efektif. Selain itu, dapat juga memberikan fleksibilitas waktu dalam penyelesaian tugas dan ujian bagi mahasiswa yang mengikuti kelas malam untuk mengakomodasi jadwal kerja atau komitmen lainnya. Sehingga diharapkan dengan cara tersebut dapat membantu para mahasiswa yang mengambil kelas malam (*evening*) dan dapat mengurangi tingkat *dropout*. (**Action oriented & Relevant**)  
 
+- Sebesar 21% atau 964 mahasiwa dengan *tuitions fee up to date* dari total keseluruhan mahasiswa berstatus *dropout*. Jumlah tersebut 2 kali lebih banyak dari mahasiswa yang melakukan pembayaran *tuitions fee* tidak dalam kategori *up to date* yaitu 10%. (**Measurable**) Kondisi ini tentunya dapat dijadikan pertimbangan bagi Jaya Jaya Institut untuk minjau atau mengatur ulang sistem pembayaran agar lebih fleksibel atau tidak menyulitkan para mahasiswa, misalnya dengan memberikan opsi pembayaran per semester atau tahunan. Sehingga mahasiswa misalnya tidak perlu membayar setiap bulan atau periode beberapa bulan. Selain itu, dapat diberikan pengingat (*reminder*) secara ruti kepada mahasiswa tentang jatuh tempo pembayaran *tuitions fee* agar melakukan pembayaran sesuai dengan ketentuan yang berlaku.(**Action oriented & Relevant**) 
 
-- Tuition fees up to dates 
-- Sebesar 21% atau 964 mahasiwa dengan *tuitions fee up to date* dari total keseluruhan mahasiswa berstatus *dropout*. Jumlah tersebut 2 kali lebih banyak dari mahasiswa yang melakukan pembayaran *tuitions fee* tidak dalam kategori *up to date* yaitu 10%. (**Measurable**) Kondisi ini tentunya dapat dijadikan pertimbangan bagi Jaya Jaya Maju untuk minjau atau mengatur ulang sistem pembayaran agar lebih fleksibel atau tidak menyulitkan para mahasiswa, misalnya dengan memberikan opsi pembayaran per semester atau tahunan. Sehingga mahasiswa misalnya tidak perlu membayar setiap bulan atau periode beberapa bulan. Selain itu, dapat diberikan pengingat (*reminder*) secara ruti kepada mahasiswa tentang jatuh tempo pembayaran *tuitions fee* agar melakukan pembayaran sesuai dengan ketentuan yang berlaku.(**Action oriented & Relevant**) 
-
-- 
-
-
-
-
-
-
-
-
-The results of the analysis or insight obtained along with the steps the company can take to reduce the attrition rate must be carried out within a clear time period. To begin with, certain programs that have been designed will be implemented during the first six months. Then an evaluation of the program is carried out to find out whether there are significant changes to the attrition rate of the Jaya Jaya Maju company. (**Time Bond**)
-
-On the other hand, steps are also needed such as holding regular face-to-face meetings within a certain period of time between HR managers and employees who are at high risk of leaving or quitting their jobs. With the aim of knowing and discussing the working conditions experienced. So that stakeholders can determine appropriate preventive measures and solutions.
+Hasil analisis atau *insights* yang diperoleh beserta beberapa rekomendasi aksi/tindakan di atas dapat dilakukan oleh Jaya Jaya Institut untuk mengurangi *students dropout rate* dalam jangka waktu yang jelas. Sebagai langkah awal, beberapa program tertentu yang telah dirancang dapat dilaksanakan selama 1 semester atau dua semester pertama. Kemudian dilakukan evaluasi terhadap program yang telah dilaksanakan tersebut untuk mengetahui apakah terdapat perubahan signifikan terhadap *students dropout rate* pada Jaya Jaya Institut. (**Time Bond**)
 
 ## 🔗 Links
 [![GitHub Repository](https://img.shields.io/badge/GitHub_Repository-%23FF0000.svg?style=for-the-badge&logo=none)](https://github.com/SyarifulMsth/Student-Dropout-Analysis-and-Prediction/) [ ![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://syarifulmsth.github.io) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syariful-musthofa/) [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
