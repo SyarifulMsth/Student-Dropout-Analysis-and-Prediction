@@ -149,8 +149,16 @@ Dengan menggunakan  _confussion matrix_, maka dapat diketahui seberapa baik perf
 
 Berdasarkan tahapan evaluasi pada proyek ini, model terbaik yang dikembangkan adalah model  Algoritma XGBoost. Model ini dipilih karena mendapatkan performa lebih baik dibanding dengan beberapa hasil eksperimen model machine learning lainnya. Berikut adalah detail dari performa model XGBoost pada proyek ini : 
 
-[Tampilkan gambar Accuracy dan Tabel Classification Report] 
+Tabel 1.*Classification Report* pada *testing dataset*
 
+|            	| precision 	| recall 	| f1-score 	| support 	|
+|:----------:	|:---------:	|:------:	|:--------:	|:-------:	|
+|      0     	|    0.88   	|  0.81  	|   0.84   	|   423   	|
+|      1     	|    0.81   	|  0.90  	|   0.85   	|   452   	|
+|      2     	|    0.81   	|  0.81  	|   0.82   	|   451   	|
+|  accuracy  	|           	|        	|   0.84 	|   1326   	|
+|  macro avg 	|    0.84   	|  0.84  	|   0.84   	|   1326   	|
+| weight avg 	|    0.84   	|  0.84  	|   0.84 	|   1326   	|
 
 ## Machine Learning Deployment
 *Machine learning deployment* merupakan tahapan mengintegrasikan model machine learning ke dalam sistem atau aplikasi yang akan digunakan secara *live*. Pada proyek ini *deployment* model machine learning ke dalam aplikasi prototype akan menggunakan *tools* **Streamlit**. 
