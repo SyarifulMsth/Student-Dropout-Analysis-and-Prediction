@@ -103,11 +103,13 @@ Tahapan Data preparation mencakup proses data gathering, data assessing, data cl
     -   Tujuan dari menangani imbalanced data adalah untuk meningkatkan performa model dalam memprediksi kelas minoritas.
     -   Terdapat beberapa cara atau metode yang dapat digunakan untuk menangani  _imbalanced data_. Pertama,  _oversampling_  yaitu memperbanyak sampel dari kelas minoritas sehingga jumlahnya seimbang dengan kelas mayoritas. Ini dapat dilakukan dengan menggandakan sampel yang ada atau dengan membuat sampel sintetis baru. Cara lainnya,  _undersampling_  yaitu mengurangi jumlah sampel dari kelas mayoritas sehingga jumlahnya seimbang dengan kelas minoritas. Ini dapat dilakukan dengan menghapus sebagian sampel dari kelas mayoritas. Pada proyek ini penanganan  _imbalanced data_  dilakukan dengan metode  _SMOTE_  (_Synthetic Minority Over-sampling Technique_):  _SMOTE_  digunakan untuk membuat sampel sintetis dari kelas minoritas (dalam hal ini, kelas "1" dari kolom '_Outcome_') sehingga jumlahnya seimbang dengan kelas mayoritas. Hal ini membantu mencegah bias pada model machine learning ke kelas mayoritas dan meningkatkan kinerja model untuk kelas minoritas.
 
+<p align='center'>Gambar 1.*Handling imbalanced data*</p>
+<p align='center'><img src ="https://github.com/SyarifulMsth/Students-Dropout-and-Academic-Success-Analysis/blob/main/images/imbalanced_data.png?raw=true"  width="300"></p>
+
 -  **Data Splitting**
     -   Data Splitting adalah proses membagi  _dataset_  menjadi dua atau lebih bagian yang berbeda untuk digunakan dalam tahapan tertentu dari proses analisis data, seperti pelatihan model, validasi model, dan pengujian model.
     -   Tujuan dari langkah ini adalah pembagian data menjadi menjadi dua bagian: satu untuk melatih model (set pelatihan) dan yang lainnya untuk menguji model (set pengujian).
     -   Teknik yang digunakan adalah dengan menggunakan metode  _Train-test split_.
-
 
 -  **Standardization**    
     -   Standardisasi adalah proses mengubah data sehingga memiliki rata-rata (_mean_) nol dan varians (_variance_) satu.
@@ -117,8 +119,6 @@ Tahapan Data preparation mencakup proses data gathering, data assessing, data cl
 
 ## 🎯 Modeling 
 Pada proyek ini algoritma machine learning yang digunakan yaitu [XGBoost](https://github.com/dmlc/xgboost) (Extreme Gradient Boosting).
-
-![image](https://miro.medium.com/v2/resize:fit:1200/1*DvgOxmBc30t9HjDKFYLC0g.jpeg)
 
 Metode XGBoost adalah algoritma pengembangan dari gradient tree boosting yang berbasis algoritma ensemble, secara efektif bisa menanggulangi kasus machine learning yang berskala besar. Metode XGBoost dipilih karena memiliki beberapa fitur tambahan yang berguna untuk mempercepat sistem perhitungan dan mencegah overfitting. XGBoost dapat menyelesaikan berbagai contoh klasifikasi, regresi, dan ranking. XGBoost adalah perhitungan pengumpulan pohon yang terdiri dari bermacam-macam pohon sebelumnya (CART). Komponen utama di balik kemakmuran XGBoost adalah kemampuan beradaptasinya dalam berbagai situasi, fleksibilitas ini karena perbaikan dari perhitungan masa lalu. [REFERENSI](https://ojs.unsulbar.ac.id/index.php/Mathematics/article/download/1792/918/#:~:text=Metode%20XGBoost%20merupakan%20pengembangan%20dari,pada%20regresi%2C%20klasifikasi%20dan%20ranking.) 
 
@@ -149,6 +149,9 @@ Dengan menggunakan  _confussion matrix_, maka dapat diketahui seberapa baik perf
 
 Berdasarkan tahapan evaluasi pada proyek ini, model terbaik yang dikembangkan adalah model  Algoritma XGBoost. Model ini dipilih karena mendapatkan performa lebih baik dibanding dengan beberapa hasil eksperimen model machine learning lainnya. Berikut adalah detail dari performa model XGBoost pada proyek ini : 
 
+<p align='center'>Gambar 2.*Confussion Matrix*</p>
+<p align='center'><img src="https://github.com/SyarifulMsth/Students-Dropout-and-Academic-Success-Analysis/blob/main/images/confussion_matrix.png?raw=true" width="450"></p>
+
 Tabel 1.*Classification Report* pada *testing dataset*
 
 |            	| precision 	| recall 	| f1-score 	| support 	|
@@ -159,6 +162,7 @@ Tabel 1.*Classification Report* pada *testing dataset*
 |  accuracy  	|           	|        	|   0.84 	|   1326   	|
 |  macro avg 	|    0.84   	|  0.84  	|   0.84   	|   1326   	|
 | weight avg 	|    0.84   	|  0.84  	|   0.84 	|   1326   	|
+
 
 ## Machine Learning Deployment
 *Machine learning deployment* merupakan tahapan mengintegrasikan model machine learning ke dalam sistem atau aplikasi yang akan digunakan secara *live*. Pada proyek ini *deployment* model machine learning ke dalam aplikasi prototype akan menggunakan *tools* **Streamlit**. 
