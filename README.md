@@ -1,5 +1,6 @@
+
 # Students' Performance Analysis
-Data Science Project: Students Dropout and Academic Success Analysis
+Data Science Project: Students' Dropout and Academic Success Analysis
 
 ![Image](https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?q=80&w=1468&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
@@ -45,15 +46,9 @@ Proyek Data Science ini menggunakan [Dataset Predict Students' Dropout and Acade
 	- **Other** : Visual Studio Code, Git & PyCharm  
 
 3. **Setup Environment** 
-
-    **Library**
-    
+  
 	`pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy scikit-learn==1.3.2 joblib==1.3.1 streamlit==1.24.0 psycopg2-binary imbalanced-learn xgboost`
-    
-    **Tableau**<br>
-    [Student Demograpich Dashboard](https://public.tableau.com/app/profile/syariful.musthofa/viz/StudentDemograpichDashboard/Dashboard1)<br>
-    [Student Dropout Analysis Dashboard](https://public.tableau.com/app/profile/syariful.musthofa/viz/StudentDropoutAnalysisDashboard/Dashboard2)<br>
-    
+        
  
 ## 📚 Data Understanding 
 Dataset yang digunakan pada proyek data science ini adalah [Dataset Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success). Dataset tersebut terdiri dari 4424 records data dan 37 features.
@@ -138,7 +133,6 @@ Metode XGBoost adalah algoritma pengembangan dari gradient tree boosting yang be
 -   XGBoost dapat cenderung overfit pada data training jika tidak dilakukan pengaturan parameter yang baik. Overfitting terjadi ketika model terlalu kompleks dan terlalu menyesuaikan dengan data training, sehingga tidak dapat melakukan generalisasi dengan baik pada data yang belum pernah dilihat sebelumnya.
 -   XGBoost memerlukan jumlah data yang besar untuk memperoleh model yang akurat dan stabil. Jika jumlah data terlalu sedikit, algoritma ini dapat menjadi tidak stabil dan menghasilkan model yang tidak akurat.
 
-
 ## 🔁Evaluation
 Tahapan evaluasi model merupakan langkah penting dalam data science. Evaluasi model dapat membantu untuk mengetahui mengetahui seberapa baik model dalam memberikan hasil prediksi yang tepat.
 
@@ -153,8 +147,19 @@ Dengan menggunakan  _confussion matrix_, maka dapat diketahui seberapa baik perf
 | **Recall**  | Metrik yang digunakan untuk mengukur seberapa baik model dalam memprediksi suatu kelas tertentu. Recall didefinisikan sebagai perbandingan antara jumlah hasil prediksi yang benar untuk kelas tertentu dengan jumlah total sampel pada kelas tersebut. |
 |**F1-score**| Merupakan kombinasi antara nilai  _precision_  dan  _recall_  dari suatu kelas tertentu.|
 
+Berdasarkan tahapan evaluasi pada proyek ini, model terbaik yang dikembangkan adalah model  Algoritma XGBoost. Model ini dipilih karena mendapatkan performa lebih baik dibanding dengan beberapa hasil eksperimen model machine learning lainnya. Berikut adalah detail dari performa model XGBoost pada proyek ini : 
+
+[Tampilkan gambar Accuracy dan Tabel Classification Report] 
+
+
 ## Machine Learning Deployment
- Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+*Machine learning deployment* merupakan tahapan mengintegrasikan model machine learning ke dalam sistem atau aplikasi yang akan digunakan secara *live*. Pada proyek ini *deployment* model machine learning ke dalam aplikasi prototype akan menggunakan *tools* **Streamlit**. 
+
+Streamlit merupakan salah satu *open-source web app framework* untuk bahasa pemrograman Python yang memungkinkan pengguna untuk membuat *web app* yang baik dan interaktif. Selain itu, Streamlit juga kompatibel dengan berbagai *library* populer seperti NumPy, pandas, matplotlib, dan *library* lainnya. 
+
+**Prototype application Link :**  
+[Student Dropout Analysis School Education 🏫](https://student-dropout-analysis-and-prediction.streamlit.app/)
+
 
 ## ⚔️ Business Dashboard 
 Berikut merupakan beberapa tahapan yang umum dijumpai dalam pengembangan sebuah business dashboard.
@@ -185,10 +190,11 @@ Berikut merupakan beberapa tahapan yang umum dijumpai dalam pengembangan sebuah 
     ![image](https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/academy/dos:0280bed7d6b8c0bce02d491192d7515320230913113346.png)
 
 ### Business Dashboard 
-Business dashboard pada proyek ini dapat diakses melalui pranala (link) berikut : 
--  [Demographics of employees](http://localhost:8000/public/dashboard/398cb3da-c03a-42ae-a20c-376731f7d5c2)
-- [Employee Turnover Analysis](http://localhost:8000/public/dashboard/9ef77c75-a07e-47ca-bd08-af6aad6837bd)
-- [Employee Wellness](http://localhost:8000/public/dashboard/5382b602-4e1d-4c31-a432-d02ba3e00ea9)
+Business dashboard pada proyek ini dapat diakses melalui pranala (*link*) **Tableau** berikut : 
+
+- [Student Demograpich Dashboard](https://public.tableau.com/app/profile/syariful.musthofa/viz/StudentDemograpichDashboard/Dashboard1)
+- [Student Dropout Analysis Dashboard](https://public.tableau.com/app/profile/syariful.musthofa/viz/StudentDropoutAnalysisDashboard/Dashboard2)
+
 
 ## 🎯 Conclusion & Recommendation Actions
 **SMART (Specific - Measurable - Action oriented - Relevant - Time bond)**
@@ -211,11 +217,8 @@ The results of the analysis or insight obtained along with the steps the company
 
 On the other hand, steps are also needed such as holding regular face-to-face meetings within a certain period of time between HR managers and employees who are at high risk of leaving or quitting their jobs. With the aim of knowing and discussing the working conditions experienced. So that stakeholders can determine appropriate preventive measures and solutions.
 
-## Acknowledgements 
-Realinho,Valentim, Vieira Martins,Mónica, Machado,Jorge, and Baptista,Luís. (2021). Predict students' dropout and academic success. UCI Machine Learning Repository.  [https://doi.org/10.24432/C5MC89](https://doi.org/10.24432/C5MC89).
-
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://syarifulmsth.github.io) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syariful-musthofa/) [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub_Repository-%23FF0000.svg?style=for-the-badge&logo=none)](https://github.com/SyarifulMsth/Student-Dropout-Analysis-and-Prediction/) [ ![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://syarifulmsth.github.io) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syariful-musthofa/) [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
 ## Feedback
 If you have any feedback, please reach out at syarifulm007@gmail.com
