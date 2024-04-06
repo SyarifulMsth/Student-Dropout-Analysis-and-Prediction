@@ -199,19 +199,30 @@ Business dashboard pada proyek ini dapat diakses melalui pranala (*link*) **Tabl
 ## 🎯 Conclusion & Recommendation Actions
 **SMART (Specific - Measurable - Action oriented - Relevant - Time bond)**
 
-Based on the KPI & insights obtained from the analysis results, it can be concluded that there are several factors that influence the attrition rate of the Jaya Jaya Maju company. These factors are monthly income, overtime, age, total working years, and distance from home (**Specific**).
+Berdasarkan *insights* yang diperoleh dari hasil analisis, dapat disimpulkan bahwa terdapat beberapa faktor yang berpengaruh kuat terhadap *students dropout rate* di Jaya Jaya Jaya Institute. Beberapa faktor tersebut meliputi *scholarship holder*, *age at enrollment*, *daytime / evening attendance*, *tuition fees up to date*, *academic semester 1 and semester 2*. (**Specific**).
 
-From the previously created business dashboard, several insights can be obtained, some of which are as follows:
+Dari *business dashboard* yang telah dibuat sebelumnya dapat diperoleh beberapa *insights* di antaranya yaitu : 
 
-- As many as 85% (153 employees) who stopped working earned a low-medium monthly income. Meanwhile, employees with higher monthly income (high income) tend to stay or work at the company. (**Measurable**) By considering the impact of wages on the company's attrition rate, reconsideration or efforts are needed to review and collect information to find out whether the company provides competitive wages according to market conditions. So that employees feel appreciated and encouraged to continue working. (**Action oriented & Relevant**)  
+- Terdapat 29% atau 1287  mahasiwa dari total keseluruhan yang bukan penerima beasiswa berstatus *dropout*. Sementara untuk kelompok mahasiswa penerima beasiswa (*scholarship holder*) presentase *dropout* hanya sebesar 3% atau 134 mahasiswa dari total keseluruhan. (**Measurable**) Tindakan yang dapat dilkukan untuk mengatasi permasalahan ini di antaranya yaitu : 
+	- Melakukan pendekatan holistik dalam memberikan beasiswa, termasuk memberikan dukungan akademik, finansial, dan sosial kepada penerima beasiswa maupun non-penerima beasiswa, sehingga beasiswa dapat disalurkan secara tepat. Selain itu, apabila memungkinkan menambah jumlah kuota penerima beasiswa lebih banyak. Sehingga *dropout rate* dapat berkurang.(**Action oriented & Relevant**)  
+	- Membangun jaringan dukungan antara penerima beasiswa untuk saling mendukung dan berbagi pengalaman dalam mengatasi tantangan akademik. Karena dalam hasil analisis, jumlah mahasiswa dengan status *dropout* dari total keseluruhan penerima beasiswa yaitu sebesar 12%. Dengan tindakan tersebut, diharapkan para jumlah penerima beasiswa yang berstatus *dropout* dapat lebih berkurang.(**Action oriented & Relevant**)  
 
-- Employees or workers in the 18-40 year age group have a greater tendency to stop working than those in the older age group. (**Measurable**) Therefore, efforts that can be made are aligning the long-term vision with young employees, as well as providing intensive, career, as well as clear promotions. (**Action oriented & Relevant**) 
+- Sebesar 85% atau 3762 mahasiswa yang berusia (*age at enrollment*) 17-30 tahun, dengan mahasiswa yang berstatus *dropout* sebesar 24% dari total keseluruhan mahasiswa.(**Measurable**) Tindakan yang dapat diambil berkaitan dengan hal tersebut di antaranya yaitu memberikan program mentoring atau bimbingan khusus bagi mahasiswa yang mendaftar pada kelompok usia tersebut untuk membantu mereka beradaptasi dengan lingkungan akademik. Tindalkan lain yang dapat dilakukan yaitu memberikan dukungan psikologis kepada mahasiswa yang mungkin mengalami kesulitan dalam menyesuaikan diri. Sehingga jumlah mahasiswa *dropout* dapat berkurang secara berkala.(**Action oriented & Relevant**)  
 
-- The distance between the office and residence also influences the attrition rate of the Jaya Jaya Maju company, based on analysis results, 59% (107 employees) who left or stopped working lived very far from the office. (**Measurable**) Related With this problem, companies can provide transportation support for employees or provide support in the form of transportation allowances. So it can reduce the company's attrition rate. (**Action oriented & Relevant**).
+- Jumlah mahasiswa kelas *evening* yang berstatus *dropout* sebesar 42% (207 mahasiswa) dari keseluruhan mahasiswa yang mengambil kelas *Evening*. Jumlah tersebut berarti hampir setengah dari kelas malam (*evening*) berstatus *dropout*, dan jumlah tersebut sangat banyak. (**Measurable**) Beberapa tindakan yang dapat diambil untuk mengatasi hal ini adalah menyelenggarakan program bimbingan khusus bagi mahasiswa yang mengikuti kelas malam untuk membantu mereka mengelola waktu dan tugas kuliah dengan lebih efektif. Selain itu, dapat juga memberikan fleksibilitas waktu dalam penyelesaian tugas dan ujian bagi mahasiswa yang mengikuti kelas malam untuk mengakomodasi jadwal kerja atau komitmen lainnya. Sehingga diharapkan dengan cara tersebut dapat membantu para mahasiswa yang mengambil kelas malam (*evening*) dan dapat mengurangi tingkat *dropout*. (**Action oriented & Relevant**)  
 
-- As many as 54% (98 employees) stopped working due to overtime. (**Measurable**) Therefore, efforts that companies can make are planning or scoping projects that are carried out properly at the beginning and with adequate workforce, so that employees workers do not work overtime. Another alternative is giving compensation to employees who have worked overtime, so that it can reduce the attrition rate. (**Action oriented & Relevant**)
 
--  As many as 65% (117 employees) who stopped working were related to business travel factors at a rare level. This shows that business travel has an effect on the attrition rate. Steps that companies can take are to review and optimize business travel policies for all employees in order to minimize employee stress levels and help retain employees. (**Action oriented & Relevant**)
+- Tuition fees up to dates 
+- Sebesar 21% atau 964 mahasiwa dengan *tuitions fee up to date* dari total keseluruhan mahasiswa berstatus *dropout*. Jumlah tersebut 2 kali lebih banyak dari mahasiswa yang melakukan pembayaran *tuitions fee* tidak dalam kategori *up to date* yaitu 10%. (**Measurable**) Kondisi ini tentunya dapat dijadikan pertimbangan bagi Jaya Jaya Maju untuk minjau atau mengatur ulang sistem pembayaran agar lebih fleksibel atau tidak menyulitkan para mahasiswa, misalnya dengan memberikan opsi pembayaran per semester atau tahunan. Sehingga mahasiswa misalnya tidak perlu membayar setiap bulan atau periode beberapa bulan. Selain itu, dapat diberikan pengingat (*reminder*) secara ruti kepada mahasiswa tentang jatuh tempo pembayaran *tuitions fee* agar melakukan pembayaran sesuai dengan ketentuan yang berlaku.(**Action oriented & Relevant**) 
+
+- 
+
+
+
+
+
+
+
 
 The results of the analysis or insight obtained along with the steps the company can take to reduce the attrition rate must be carried out within a clear time period. To begin with, certain programs that have been designed will be implemented during the first six months. Then an evaluation of the program is carried out to find out whether there are significant changes to the attrition rate of the Jaya Jaya Maju company. (**Time Bond**)
 
