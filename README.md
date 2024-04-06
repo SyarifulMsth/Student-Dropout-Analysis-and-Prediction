@@ -1,16 +1,13 @@
-
-
-
-# # Students' Performance Analysis
-Data Science Project: Students Dropout and Academic Success
+# Students' Performance Analysis
+Data Science Project: Students Dropout and Academic Success Analysis
 
 ![Image](https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?q=80&w=1468&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ## 🏷️Metodologi 
 
-Metodologi manajemen proyek yang digunakan dalam proyek ini adalah CRISP-DM. Metodologi ini merupakan salah satu dari beberapa metodologi yang sering digunakan dalam dunia industri. Selain CRISP-DM, terdapat beberapa metodologi manajemen proyek yaitu Ad Hoc, Waterfall, Agile Scrum & Kanban.
+Metodologi manajemen proyek yang digunakan dalam proyek ini adalah CRISP-DM. Metodologi ini merupakan salah satu dari beberapa metodologi yang sering digunakan dalam dunia industri. Selain CRISP-DM, terdapat beberapa metodologi manajemen proyek yaitu *Ad Hoc*, *Waterfall*, *Agile Scrum* & *Kanban*.
 
-CRISP-DM (Cross-Industry Standard Process for Data Mining) adalah pendekatan yang menggambarkan proses standar untuk proyek data mining, data science, dan machine learning. Dalam metodologi ini, pengerjaan suatu proyek diawali dengan tahap business understanding sehingga dapat membantu memastikan proyek terlaksana sesuai dengan kebutuhan bisnis. Keunggulan lain dari metodologi ini adalah proses kerjanya bersifat iteratif, sehingga proses kerjanya dapat disesuaikan dengan kebutuhan eksperimen proyek data science. Berbeda dengan metodologi waterfall yang hanya berjalan satu arah.
+CRISP-DM (*Cross-Industry Standard Process for Data Mining*) adalah pendekatan yang menggambarkan proses standar untuk proyek *data mining*, *data science*, dan *machine learning*. Dalam metodologi ini, pengerjaan suatu proyek diawali dengan tahap *business understanding* sehingga dapat membantu memastikan proyek terlaksana sesuai dengan kebutuhan bisnis. Keunggulan lain dari metodologi ini adalah proses kerjanya bersifat iteratif, sehingga proses kerjanya dapat disesuaikan dengan kebutuhan eksperimen proyek *data science*. Berbeda dengan metodologi *waterfall* yang hanya berjalan satu arah.
 
 CRISP-DM terdiri dari 6 fase dan disusun sebagai sebuah siklus, yang bertujuan untuk memaksimalkan hasil proyek ilmu data. Tahapan CRISP-DM dapat dilihat pada gambar berikut:
 
@@ -24,17 +21,18 @@ Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang tela
 Untuk mencegah permasalahan Jaya Jaya Institute menjadi lebih parah. Maka perlu diidentifikasi faktor apa saja yang berpengaruh terhadap tingkat dropout yang tinggi dan mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout, sehingga dapat diberi bimbingan khusus. 
 
 ### Project Scope
-Berdasarkan permasalahan yang telah diuraikan, maka untuk menjawab permasalahan bisnis tersebut akan dibuat sistem machine learning dengan menggunakan algoritma Random Forest Classification. Sehingga dapat diidentifikasi faktor-faktor yang berkontribusi terhadap tingginya tingkat dropout pada Jaya Jaya Jaya Institute.
+Berdasarkan permasalahan yang telah diuraikan, maka untuk menjawab permasalahan bisnis tersebut akan dibuat sistem machine learning dengan menggunakan algoritma *Random Forest Classification*. Sehingga dapat diidentifikasi faktor-faktor yang berkontribusi terhadap tingginya tingkat *dropout* pada Jaya Jaya Jaya Institute.
 
-Selain itu juga akan dibuat business dashboard yang dapat digunakan oleh Jaya Jaya Institute untuk membantu memantau data dan memonitor performa siswa.
+Selain itu juga akan dibuat *business dashboard* yang dapat digunakan oleh Jaya Jaya Institute untuk membantu memantau data dan memonitor performa siswa.
 
-Berikut beberapa pertanyaan yang akan dijawab dalam proyek ini dengan mengikuti konsep SMART-Question:
+Berikut beberapa pertanyaan yang akan dijawab dalam proyek ini dengan mengikuti konsep **SMART-Question**:
+
 ### SMART Question (Specific - Measurable - Action oriented - relevant - Time bond) :
-- **Specific :** Faktor-faktor apa saja yang berkontribusi terhadap tingkat dropout Jaya Jaya Jaya Institute?
-- **Measurable :** Berapa jumlah atau persentase faktor yang mempengaruhi tingkat dropout Jaya Jaya Jaya Institute?
-- **Action oriented:** Tindakan apa yang dapat dilakukan Jaya Jaya Jaya Institute untuk menangani faktor penyebab siswa dropout dan mengurangi tingkat dropout?
-- **Relevant :** Apakah tindakan yang akan dilakukan tersebut dapat mengurangi jumlah siswa yang dropout?
-- **Time bond :** Berapa lama implementasi dari rencana untuk mengurangi jumlah siswa yang dropout tersebut? 
+- **Specific :** Faktor-faktor apa saja yang berkontribusi terhadap *students dropout rate*  Jaya Jaya Jaya Institute?
+- **Measurable :** Berapa jumlah atau persentase faktor yang mempengaruhi *students dropout rate* Jaya Jaya Jaya Institute?
+- **Action oriented:** Tindakan apa yang dapat dilakukan Jaya Jaya Jaya Institute untuk menangani faktor penyebab tingginya *students dropout rate* dan menguranginya?
+- **Relevant :** Apakah tindakan yang akan dilakukan tersebut dapat mengurangi *students dropout rate*?
+- **Time bond :** Berapa lama implementasi dari rencana untuk mengurangi *students dropout rate* tersebut? 
 
 ### Project Preparation 
 1. **Dataset** 
@@ -42,21 +40,21 @@ Proyek Data Science ini menggunakan [Dataset Predict Students' Dropout and Acade
 
 2. **Tech Stack** 	
 	 - **Programming Languages** : Python
-	- **AI/ML** : Tensorflow, pandas, numpy, scikit-learn, SciPy, matplotlib, seaborn, sqlalchemy, psycopg2-binary, joblib
-	- **Database** : PostreSQL
-	- **Devops** : Docker image with Metabase
-	- **Other** : Git
+	- **AI/ML** : Tensorflow, numpy, pandas, scipy, matplotlib, seaborn, jupyter, sqlalchemy, scikit-learn, joblib, streamlit, psycopg2-binary, imbalanced-learn, XGBClassifier, KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier, & RandomForestClassifier
+	- **Business intelligence tools** : Tableau 
+	- **Other** : Visual Studio Code, Git & PyCharm  
 
 3. **Setup Environment** 
 
     **Library**
     
-	`pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy psycopg2-binary scikit-learn==1.2.2 joblib==1.3.1`
+	`pip install numpy pandas scipy matplotlib seaborn jupyter sqlalchemy scikit-learn==1.3.2 joblib==1.3.1 streamlit==1.24.0 psycopg2-binary imbalanced-learn xgboost`
     
-    **Metabase** <br>
-    username : syarifulm007@gmail.com<br> 
-    password : passwordMETABASE#16<br>
-
+    **Tableau**<br>
+    [Student Demograpich Dashboard](https://public.tableau.com/app/profile/syariful.musthofa/viz/StudentDemograpichDashboard/Dashboard1)<br>
+    [Student Dropout Analysis Dashboard](https://public.tableau.com/app/profile/syariful.musthofa/viz/StudentDropoutAnalysisDashboard/Dashboard2)<br>
+    
+ 
 ## 📚 Data Understanding 
 Dataset yang digunakan pada proyek data science ini adalah [Dataset Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success). Dataset tersebut terdiri dari 4424 records data dan 37 features.
 
@@ -89,27 +87,57 @@ Dataset yang digunakan pada proyek data science ini adalah [Dataset Predict Stud
 
 ## 📚 Data Preparation 
 
-Tahapan Data preparation mencakup proses data gathering, data assessing, data cleaning, atau feature engineering. Dalam proyek ini dilakukan beberapa teknik seperti penanganan missing value, penanganan duplikasi data, dan beberapa teknik lainnya.
+Tahapan Data preparation mencakup proses data gathering, data assessing, data cleaning, atau feature engineering. Dalam proyek ini dilakukan beberapa teknik seperti penanganan missing value, penanganan duplikasi data, dan beberapa teknik lainnya. Berikut adalah tahapan data preparation pada proyek ini : 
 
-**Jelaskan lebih lanjut seperti documentation Machine learning projects**
+-   **Handling missing value**
+	-   _Missing value_  merupakan salah satu masalah yang paling sering dijumpai dalam proyek analisis data di industri. Masalah ini muncul karena adanya nilai yang hilang dari sebuah data dan biasanya direpresentasikan sebagai nilai NaN dalam library pandas. Hal ini biasanya terjadi karena adanya  _human error_, masalah privasi, proses  _merging/join_, dll.
+	- Tujuan dari langkah ini adalah untuk memastikan keakuratan dan keandalan data yang digunakan untuk analisis atau pemodelan.  _Missing value_  dapat menyebabkan bias dan kesalahan dalam analisis data, sehingga penting untuk mengidentifikasi dan mengatasi nilai yang hilang ini agar hasil analisis menjadi lebih akurat dan dapat diandalkan.
+	- Terdapat beberapa cara atau metode yang dapat digunakan untuk menangani  _missing value_, yaitu  _Dropping_,  _Imputation_,  _Interpolation_, dan lainnya.
+
+-   **Handling duplicated data**
+    - _Duplicated data_  adalah masalah lain yang umum dijumpai di industri. Ia terjadi ketika terdapat sebuah observasi (semua nilai dalam satu unit baris) yang memiliki nilai yang sama persis pada setiap kolomnya.Tujuan dari langkah ini adalah untuk memastikan integritas data.  _Duplicated data_  dapat mempengaruhi analisis data dan membuat hasil yang tidak akurat. Oleh karena itu, dengan mengidentifikasi dan menghapus data yang terduplikat, dapat memastikan bahwa data yang digunakan untuk analisis atau pemodelan adalah data yang valid dan representatif.
+    - Salah satu teknik yang dapat digunakan dalam mengatasi  _duplicated data_  adalah dengan menghapus data yang terduplikat (_dropping_).
+   
+   -   **Handling outliers**
+	   - _Outliers_  adalah nilai yang jauh berbeda dari nilai lainnya dalam kumpulan data. Nilai ini muncul sebagai pengecualian dalam pola data yang ada. Nilai yang ada di  _outlier_  bisa jauh lebih tinggi maupun lebih rendah dibandingkan dengan nilai-nilai lain dalam dataset. Outlier bisa terjadi karena berbagai alasan, termasuk kesalahan pengukuran, kejadian langka, atau karena faktor lain yang tidak terduga.
+        -   Tujuan dari langkah ini adalah untuk memastikan bahwa  _outlier_  tidak mempengaruhi analisis statistik yang dilakukan atau model machine learning yang dibangun. Outliers memiliki potensi untuk memberikan informasi yang salah atau mengganggu hasil analisis, sehingga penting untuk mengatasi mereka agar hasil analisis menjadi lebih akurat dan dapat dipercaya.
+
+-  **Handling imbalanced data**
+    
+    -   _Imbalanced data_  merupakan sebuah kondisi di mana distribusi dari kelas yang terdapat pada dataset tidak seimbang jumlahnya.
+    -   Tujuan dari menangani imbalanced data adalah untuk meningkatkan performa model dalam memprediksi kelas minoritas.
+    -   Terdapat beberapa cara atau metode yang dapat digunakan untuk menangani  _imbalanced data_. Pertama,  _oversampling_  yaitu memperbanyak sampel dari kelas minoritas sehingga jumlahnya seimbang dengan kelas mayoritas. Ini dapat dilakukan dengan menggandakan sampel yang ada atau dengan membuat sampel sintetis baru. Cara lainnya,  _undersampling_  yaitu mengurangi jumlah sampel dari kelas mayoritas sehingga jumlahnya seimbang dengan kelas minoritas. Ini dapat dilakukan dengan menghapus sebagian sampel dari kelas mayoritas. Pada proyek ini penanganan  _imbalanced data_  dilakukan dengan metode  _SMOTE_  (_Synthetic Minority Over-sampling Technique_):  _SMOTE_  digunakan untuk membuat sampel sintetis dari kelas minoritas (dalam hal ini, kelas "1" dari kolom '_Outcome_') sehingga jumlahnya seimbang dengan kelas mayoritas. Hal ini membantu mencegah bias pada model machine learning ke kelas mayoritas dan meningkatkan kinerja model untuk kelas minoritas.
+
+-  **Data Splitting**
+    -   Data Splitting adalah proses membagi  _dataset_  menjadi dua atau lebih bagian yang berbeda untuk digunakan dalam tahapan tertentu dari proses analisis data, seperti pelatihan model, validasi model, dan pengujian model.
+    -   Tujuan dari langkah ini adalah pembagian data menjadi menjadi dua bagian: satu untuk melatih model (set pelatihan) dan yang lainnya untuk menguji model (set pengujian).
+    -   Teknik yang digunakan adalah dengan menggunakan metode  _Train-test split_.
+
+
+-  **Standardization**    
+    -   Standardisasi adalah proses mengubah data sehingga memiliki rata-rata (_mean_) nol dan varians (_variance_) satu.
+    -   Salah satu tujuan standardisasi adalah karena banyak algoritma pembelajaran mesin yang berkinerja lebih baik atau stabil ketika fitur numerik diaktifkan. skala yang sama. Dengan standarisasi, fitur-fitur ini diperlakukan secara seragam, sehingga dapat meningkatkan performa model.
+    -  Teknik yang digunakan pada proyek ini adalah menggunakan _StandardScaler scikit-learn_.
+
 
 ## 🎯 Modeling 
-Pada proyek ini algoritma machine learning yang digunakan yaitu Random Forest Classification.
+Pada proyek ini algoritma machine learning yang digunakan yaitu [XGBoost](https://github.com/dmlc/xgboost) (Extreme Gradient Boosting).
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/1*DvgOxmBc30t9HjDKFYLC0g.jpeg)
 
-Algoritma random forest merupakan salah satu algoritma machine learning yang dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest merupakan algoritma yang sering digunakan karena cukup sederhana namun memiliki stabilitas yang baik.
+Metode XGBoost adalah algoritma pengembangan dari gradient tree boosting yang berbasis algoritma ensemble, secara efektif bisa menanggulangi kasus machine learning yang berskala besar. Metode XGBoost dipilih karena memiliki beberapa fitur tambahan yang berguna untuk mempercepat sistem perhitungan dan mencegah overfitting. XGBoost dapat menyelesaikan berbagai contoh klasifikasi, regresi, dan ranking. XGBoost adalah perhitungan pengumpulan pohon yang terdiri dari bermacam-macam pohon sebelumnya (CART). Komponen utama di balik kemakmuran XGBoost adalah kemampuan beradaptasinya dalam berbagai situasi, fleksibilitas ini karena perbaikan dari perhitungan masa lalu. [REFERENSI](https://ojs.unsulbar.ac.id/index.php/Mathematics/article/download/1792/918/#:~:text=Metode%20XGBoost%20merupakan%20pengembangan%20dari,pada%20regresi%2C%20klasifikasi%20dan%20ranking.) 
 
-_Random forest_  termasuk dalam salah satu kategori  _ensemble_  (group)  _learning_, yang terdiri dari banyak pohon keputusan (_decision_  _tree_) yang bekerja bersama untuk meningkatkan kinerja dan akurasi prediksi. Pada model  _machine learning ensemble_, setiap model harus membuat prediksi secara independen. Kemudian, prediksi dari setiap  _model ensemble_  ini digabungkan untuk membuat prediksi akhir.  _Algoritma Random Forest_  mengkombinasikan hasil prediksi dari berbagai  _model decision tree_  yang dibuat secara acak.
 
 **Kelebihan**  :
-
--   _Random forest_  merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
--   Random forest dapat mencegah terjadinya  _overfitting_  apabila dibandingkan dengan  _algoritma Decision Tree_. Selain itu, algoritma ini dapat menangani dataset besar dengan banyak fitur.
+-  XGBoost menggunakan teknik boosting dan mengoptimalkan proses pembelajaran dengan gradien berdasarkan fungsi objektif. Hal ini menghasilkan model yang kuat dengan performa yang tinggi dan kemampuan prediksi yang akurat.
+-  XGBoost dirancang untuk menangani dataset yang besar dengan efisiensi tinggi. Algoritma ini menggunakan pengoptimalan yang cerdas, seperti kompresi kolom dan pembagian paralel untuk meningkatkan kinerja dan mengurangi penggunaan sumber daya.
+-  XGBoost dapat menangani kombinasi variabel numerik dan kategorikal tanpa memerlukan pra-pemrosesan tambahan. Ini mengurangi kompleksitas dan waktu yang dibutuhkan untuk pra-pemrosesan data.
 
 **Kekurangan**  :
+- XGBoost  memerlukan tuning parameter yang cermat untuk mendapatkan model yang optimal. Hal ini dapat memakan waktu dan mengharuskan penggunaan cross-validation dan teknik tuning parameter lainnya.
+-   XGBoost dapat cenderung overfit pada data training jika tidak dilakukan pengaturan parameter yang baik. Overfitting terjadi ketika model terlalu kompleks dan terlalu menyesuaikan dengan data training, sehingga tidak dapat melakukan generalisasi dengan baik pada data yang belum pernah dilihat sebelumnya.
+-   XGBoost memerlukan jumlah data yang besar untuk memperoleh model yang akurat dan stabil. Jika jumlah data terlalu sedikit, algoritma ini dapat menjadi tidak stabil dan menghasilkan model yang tidak akurat.
 
--   _Random Forest_  memerlukan waktu pelatihan yang lebih lama dibanding  _Decision Tree_  karena kompleksitas modelnya
 
 ## 🔁Evaluation
 Tahapan evaluasi model merupakan langkah penting dalam data science. Evaluasi model dapat membantu untuk mengetahui mengetahui seberapa baik model dalam memberikan hasil prediksi yang tepat.
