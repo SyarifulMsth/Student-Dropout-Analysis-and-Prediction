@@ -153,7 +153,6 @@ Berdasarkan tahapan evaluasi pada proyek ini, model terbaik yang dikembangkan ad
 <p align='center'><img src="https://github.com/SyarifulMsth/Students-Dropout-and-Academic-Success-Analysis/blob/main/images/confussion_matrix.png?raw=true" width="450"></p>
 
 Tabel 1.*Classification Report* pada *testing dataset*
-
 |            	| precision 	| recall 	| f1-score 	| support 	|
 |:----------:	|:---------:	|:------:	|:--------:	|:-------:	|
 |      0     	|    0.88   	|  0.81  	|   0.84   	|   423   	|
@@ -162,7 +161,6 @@ Tabel 1.*Classification Report* pada *testing dataset*
 |  accuracy  	|           	|        	|   0.84 	|   1326   	|
 |  macro avg 	|    0.84   	|  0.84  	|   0.84   	|   1326   	|
 | weight avg 	|    0.84   	|  0.84  	|   0.84 	|   1326   	|
-
 
 ## Machine Learning Deployment
 *Machine learning deployment* merupakan tahapan mengintegrasikan model machine learning ke dalam sistem atau aplikasi yang akan digunakan secara *live*. Pada proyek ini *deployment* model machine learning ke dalam aplikasi prototype akan menggunakan *tools* **Streamlit**. 
